@@ -68,6 +68,12 @@ For example:
 th colorize.lua ansel_colorado_1941.png out.png
 ```
 
+For colorizing all the images in a folder:
+
+```
+th colorize_folder.lua [your source folder name] [your saving folder name]
+```
+
 ### Best Performance
 
 - This model was trained on the [Places dataset](http://places.csail.mit.edu/) and thus best performance is for natural outdoor images.
